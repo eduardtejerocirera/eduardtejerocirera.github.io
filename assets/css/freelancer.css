@@ -217,7 +217,7 @@ header.masthead h2 {
   margin-bottom: -15px;
 }
 
-.portfolio .portfolio-item {
+.portfolio .portfolio-card {
   position: relative;
   display: block;
   max-width: 25rem;
@@ -243,7 +243,7 @@ header.masthead h2 {
   .portfolio {
     margin-bottom: -30px;
   }
-  .portfolio .portfolio-item {
+  .portfolio .portfolio-card {
     margin-bottom: 30px;
   }
 }
