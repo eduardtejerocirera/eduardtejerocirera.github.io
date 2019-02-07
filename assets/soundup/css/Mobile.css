@@ -1,0 +1,265 @@
+@import url(http://fonts.googleapis.com/css?family=Hammersmith+One);
+
+
+
+/*----------------------MEDIA QUERIES--------------------------*/
+/* Smartphones iPhone 6 (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px)and (max-width : 480px) {
+/* Styles */
+	
+
+	#header{
+		background-color: rgba(2, 1, 1, 1);
+		margin-bottom: 10px;
+
+	}
+	#header p{
+		color: rgb(4, 136, 160);
+		font-family: 'Hammersmith One', sans-serif;
+		padding-left: 23%;
+		font-size: 274%;
+		
+		
+	}
+
+	.title{
+		margin:auto;
+		width: 100%;
+	}
+	body{
+	background-image: url("./640x960.jpg");
+    background-size: 200%;   
+	}
+	#mySelect{
+		margin-left: 33%;
+		width: 30%;
+		background-color: rgba(255, 255, 255, 0.24);
+		color: white;
+		margin-top: 4%;
+		font-family: 'Hammersmith One', sans-serif;
+		margin-bottom: 4%;
+
+	}
+	#Bigcontainer{
+		background-color: rgba(174, 173, 173, 0.23);
+		border: 0.5;
+		border-radius: 26px;
+		margin-top: 10%;
+		position: relative;
+		margin-left: 15px;
+		margin-right: 15px;
+		box-shadow: 10px 10px 5px rgba(40, 76, 72, 0.31);
+		margin-bottom: 4%;	
+	}
+	#Bigcontainer h3{
+		padding-top: 3%;
+		margin:auto;
+		font-size: 35px;
+		color: white;
+		width: 35%;
+		display: block;
+		margin-bottom: 3%;
+	}
+	.album{
+		margin-left: 20%;
+		margin-right: 20%;
+		border: 4%;
+		margin-top: 6%;
+		
+	}
+	
+	/*Afegint la classe blur a una imatge la podrem desenfocar*/
+	img.blur{
+		-webkit-filter: blur(2px); 
+		-moz-filter: blur(2px); 
+		-o-filter: blur(2px); 
+		-ms-filter: blur(2px); 
+		filter: blur(2px);
+	}
+	img{
+		float: center;
+		border-radius: 100%;
+		z-index: 0;
+		width: 100%;
+		position: relative;	
+	}
+
+	#playbutton{
+		color: rgba(255, 255, 255, 1);
+		font-size: 7.5em;
+		z-index: 1;
+		left: 38%;
+		margin-top: 25%;
+		position: absolute;
+		cursor: pointer;
+	}
+	.Buscador{
+		background-color: rgba(255, 255, 255, 0);
+		margin: 5%;
+	}
+	.item{
+		margin: auto;
+		width: 60%;
+		margin-bottom: 3%;
+		padding-top: 4%;
+		font-family: 'Hammersmith One', sans-serif;
+	}
+
+	#Bigcontainer h3{
+		margin: auto;
+		padding-top: 8%;
+		font-size: 23px;
+		color: white;
+		width: 90%;
+		display: block;
+		margin-left: 20%;
+	}
+	p{
+		width: 100%;
+		margin:auto;
+		color: white;
+		font-family: 'Hammersmith One', sans-serif;
+
+	}
+
+
+	.info{
+		margin:auto;
+		font-family: 'Hammersmith One', sans-serif;
+	}
+	p.nomartista{
+		color: white;
+		font-size: 18px;
+		margin: auto;
+		margin-left: 30%;
+		margin-top: 10%;
+		
+
+	}
+	p.nomalbum{
+		color: white;
+		font-size: 18px;
+		margin: auto;
+		margin-left: 30%;
+		
+	}
+	#nextR{
+
+		margin-left: 89%;
+		font-size: 800%;
+		float: right;
+		position: fixed;
+		cursor: pointer;
+
+	}
+	#nextL{
+		margin-left: 4.4%;
+		width: 50%;
+		font-size: 800%;
+		float: left;
+		position: fixed;
+		cursor: pointer;
+	}
+	#Logo{
+		padding: 1%;
+		width: 16%;
+		display: inline-block;
+		margin: auto;
+
+	}
+	#footer p{
+		margin-left: 500px;
+		width: 58%;
+		font-family: 'Hammersmith One', sans-serif;
+	}
+	#nextR{
+
+		top: 65%;
+		margin-left: 84%;
+		font-size: 500%;
+		float: right;
+		position: fixed;
+		cursor: pointer;
+
+	}
+	#nextL{
+	top: 65%;
+	margin-left: 3%;
+	font-size: 500%;
+	float: right;
+	position: fixed;
+	cursor: pointer;
+	}
+	.fav{
+		color: green;
+		font-size: 145%;
+	}
+	#addButton{
+		background-color: rgba(255, 255, 255, 0.19);
+		border-radius: 14px;
+		border-style: solid;
+		margin-bottom: 1%;
+		font-family: 'Hammersmith One', sans-serif;
+		
+
+	}
+	.Add{
+		background-color: rgba(255, 255, 255, 0.19);
+		border-radius: 14px;
+		border-style: solid;
+		font-family: 'Hammersmith One', sans-serif;
+		margin-bottom: 8%;
+	}
+	.song{
+		box-shadow: 14px 2px 39px rgba(12, 2, 2, 0.72);
+		margin-bottom: 3%;
+		margin-top: 7%;
+		
+	}
+	.repr{
+		margin-left: 6%;
+		
+	}
+	
+	/*-----------------------------BOOTSRAP REDESIGN-------------------------------*/
+	/* Boto amb la lupa del buscador*/
+	.dropdown-toggle.btn-default {
+		color: #FFFFFF;
+		background-color:rgba(230, 230, 230, 0.18);
+		border-color: #adadad;
+		background-color: rgba(255, 0, 0, 0);
+	}
+	#btn-group i{
+		color:red;
+		
+	}
+	.btn-default{
+		background-color: rgba(255, 255, 255, 0.19);
+		border-radius: 14px;
+		color: white;
+		margin: 1%;
+	}
+	/* Espai de text del buscador*/
+	.form-control{
+		background-color: rgba(255, 255, 255, 0.19);
+		border-radius: 14px;
+		color: white;
+	}
+	.input-group{
+		ransform: scale(1.7);
+		margin-bottom: 4%;
+		
+	}
+	.input-group .form-control{
+		
+		
+	}
+	.jumbotron{
+	padding: 1px 15px;
+	margin-bottom: 30px;
+	color: inherit;
+	background-color: #DDD5D5;
+	}
+
+/*END OF QUERY*/
+}

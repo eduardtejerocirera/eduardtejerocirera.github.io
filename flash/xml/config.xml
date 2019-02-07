@@ -1,0 +1,139 @@
+<PMM2>
+
+	<Config id="1">
+		<music>
+			<mainMusic>music/human.mp3</mainMusic>
+			<rollOver>music/rollover.mp3</rollOver>
+			<click>music/click.mp3</click>
+		</music>
+
+		<configMenu>
+			<background>img/config.png</background>
+			<botoIni>img/boto_ini.swf</botoIni>
+			<botoClick>img/boto_clic.swf</botoClick>
+			<botoSound>img/sound.swf</botoSound>
+			<botoNoSound>img/nosound.swf</botoNoSound>
+			<botoMusic>img/music.swf</botoMusic>
+			<botoNoMusic>img/nomusic.swf</botoNoMusic>
+		</configMenu>
+
+		<classMenu>
+			<background>img/classificacio.png</background>
+			<botoIni>img/boto_ini.swf</botoIni>
+			<botoClick>img/boto_clic.swf</botoClick>
+		</classMenu>
+	
+		<mainMenu>
+			<background>img/fons_menu.jpg</background>
+			<titolImage>img/titol.png</titolImage>
+			<botoIni>img/boto_ini.swf</botoIni>
+			<botoClick>img/boto_clic.swf</botoClick>
+		</mainMenu>
+
+		<playMenu>
+			<background>img/playmenu.png</background>
+			<botoIni>img/boto_ini.swf</botoIni>
+			<botoClick>img/boto_clic.swf</botoClick>
+			<botoMarcNormal>img/botoMarcNormal.swf</botoMarcNormal>
+			<botoMarcSelected>img/botoMarcSelected.swf</botoMarcSelected>
+			<botoLauraNormal>img/botoLauraNormal.swf</botoLauraNormal>
+			<botoLauraSelected>img/botoLauraSelected.swf</botoLauraSelected>
+			<botoUnlockedSelected>img/uls.swf</botoUnlockedSelected>
+			<botoUnlockedNormal>img/uln.swf</botoUnlockedNormal>
+			<botoLocked>img/lockedLevel.swf</botoLocked>
+		</playMenu>
+
+		<instructionsMenu>
+			<background>img/instruccions.png</background>
+			<botoIni>img/boto_ini.swf</botoIni>
+			<botoClick>img/boto_clic.swf</botoClick>
+		</instructionsMenu>
+
+		<gameWindow id="1">
+			<enemics>
+				<enemic id="1">
+					<path>img/barret.swf</path>
+					<type>estatic</type>
+					<velocitat>1</velocitat>
+					<scale>0.3</scale>
+				</enemic>
+				<enemic id="2">
+					<path>img/bola_foc.swf</path>
+					<type>dinamic</type>
+					<velocitat>2</velocitat>
+					<scale>0.5</scale>
+				</enemic>
+				<enemic id="3">
+					<path>img/bola_magia.swf</path>
+					<type>dinamic</type>
+					<velocitat>2</velocitat>
+					<scale>0.5</scale>
+				</enemic>
+			</enemics>
+			<item escala="0.1">img/pocima.swf</item>
+			<backgroundIni>
+				<img>img/pantalla_bruixeria_inici.swf</img>
+				<llargada>1500</llargada>
+				<mascara>img/mask_bruixeria.swf</mascara>
+			</backgroundIni>
+			<background>
+				<img>img/pantalla_bruixeria.jpg</img>
+				<llargada>3756</llargada>
+			</background>
+			<vides escala="0.2">
+				<vida id="1">img/vida1.png</vida>
+				<vida id="2">img/vida2.png</vida>
+				<vida id="3">img/vida3.png</vida>
+			</vides>
+			<quantsItems>5</quantsItems>
+			<terra>460</terra>
+			<itemScale>0.1</itemScale>
+		</gameWindow>
+
+		<gameWindow id="2">	
+			<enemics>
+				<enemic id="1">
+					<path>img/veri.swf</path>
+					<type>estatic</type>
+					<velocitat>1</velocitat>
+					<scale>0.3</scale>
+				</enemic>
+				<enemic id="2">
+					<path>img/xeringa.swf</path>
+					<type>dinamic</type>
+					<velocitat>2</velocitat>
+					<scale>0.2</scale>
+				</enemic>
+				<enemic id="3">
+					<path>img/medicament.swf</path>
+					<type>estatic</type>
+					<velocitat>1</velocitat>
+					<scale>0.3</scale>
+				</enemic>
+			</enemics>
+			<item escala="0.1">img/pastilla.swf</item>
+			<backgroundIni>
+				<img>img/doctor_v3.swf</img>
+				<llargada>1200</llargada>
+			</backgroundIni>
+			<background>
+				<img>img/passadis_v3.swf</img>
+				<llargada>2159</llargada>
+				</background>
+			<vides escala="0.2">
+				<vida id="1">img/vida1.png</vida>
+				<vida id="2">img/vida2.png</vida>
+				<vida id="3">img/vida3.png</vida>
+			</vides>
+			<quantsItems>5</quantsItems>
+			<terra>420</terra>
+			<itemScale>0.2</itemScale>
+		</gameWindow>
+
+		<gameWindow id="3">
+			<background>img/fons_animacio.swf</background>
+			<scale>0.35</scale>
+		</gameWindow>
+	</Config>
+
+</PMM2>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+	<head>
+		<title>Practica Final</title>
+		<meta charset="UTF-8">
+		 <link rel = "stylesheet" href="css/reset.css">
+		 <link rel="stylesheet" href="css/bootstrap.min.css">
+		 <link rel="stylesheet" type="text/css" href="./css/Mobile.css">
+		 <link rel="stylesheet" type="text/css" href="./css/Laptop.css">
+		 <!--<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"> -->
+		 <!-- Font Awesome -->
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+	</head>
+	<body>
+		<div id="wrapper" >
+			<div id="header">
+				<p id="sound"><img id="Logo"  src="./images/SOUNDUP-LOGO.svg"> SOUNDUP </p>
+			</div>
+			<div id="Content">	
+				<div class="Buscador">
+  					<table border="1" style="width: 100%;">
+  						<tbody style="">
+	  						<tr>
+	    						<td>
+	    							<div class="input-group">
+					    				<span class="input-group-btn" id="searchButton">
+					      					<button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+					      				</span>
+					      				<input type="text" class="form-control" id="textbox">
+					    			</div>
+								</td>
+	    					</tr>
+						    <tr>
+							    <td>	<!-- Single button PER A SELECCIONAR ALBUMS ARTISTS SONGS-->
+									<form id="myform" style="/* margin: auto; */">
+										<select id="mySelect">
+											<option>Artists</option>
+											<option>Albums</option>
+											<option>Tracks</option>
+										</select>
+									</form>
+								</td> 
+						  	</tr>
+						  	<tr>
+						    	<td>
+						    		<div class="input-group">
+										<span class="input-group-btn" id="searchButton">
+											<button class="btn btn-default" type="button" id = "newplaylist">
+												<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+											</button>
+										</span>
+										<input type="text" class="form-control" placeholder="NEW LIST" id="textboxN">
+									</div>
+								</td>
+							</tr>
+  							<tr>
+    							<td id = "playlistcell">
+    								<div id = "playlistbuttons">	
+										 <div class="btn-group" id = "btn-group">
+											  <button type="button" class="btn btn-default">LIST 1</button>
+											  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+											    <span class="caret"></span>
+											    <span class="sr-only">Toggle Dropdown</span>
+											  </button>
+											  <ul class="dropdown-menu" role="menu">
+											    <li><a href="#">DELETE LIST</a></li> 
+											  </ul>
+										</div>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				 </div><!-- /.col-lg-6 -->
+				<!-- Dins el Big Container hi col·locarem tots els albums-->
+				
+
+				<div id="Bigcontainer" class="Bigcontainer">
+
+					
+
+
+				</div>
+			</div>
+			<div id="footer">
+			<p id="Textfooter"> POWERED BY SPOTIFY  & YOUTUBE </p>
+				
+			</div>	
+			
+		</div>
+		<script src="https://apis.google.com/js/api.js"></script>
+		<script src="https://apis.google.com/js/client.js?onload=yinit"></script>
+		<script src="Animations/animations.js"></script>
+		<script src="Animations/move.js"></script>
+		<script src="js/xml2json.js"></script>
+		<script src="js/DOMManager.js"></script>
+		<script src="js/YoutubeManager.js"></script>
+		<script src="js/DBOps.js"></script>
+		<script src="js/Listener.js"></script>
+		<script src="js/APImanager.js"></script>
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/Principal.js"></script>	
+	</body>
+
+</html>

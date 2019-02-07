@@ -1,0 +1,252 @@
+@import url(http://fonts.googleapis.com/css?family=Hammersmith+One);
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1220px) {
+/* Styles */
+	html{
+		height: 100%;
+    	margin: 0;
+    	padding: 0;
+	}
+	body{
+		background-image: url("./1280x800.png");
+		background-size: 100%;
+		background-repeat: repeat-y;
+		height: 100%;
+    	margin: 0;
+    	padding: 0;
+     }
+	#header{
+		background-color:  rgba(2, 1, 1, 1);
+		margin-bottom: 4%;
+
+		
+	}
+	.title{
+		margin:auto;
+		width: 100%;
+	}
+	#header p{
+		color: rgb(4, 136, 160);
+		font-family: 'Hammersmith One', sans-serif;
+		padding-left: 36%;
+		font-size: 365%;
+		cursor: pointer;
+	}
+	#playlistbuttons{
+		margin-bottom:10%;
+	}
+	/*sobreescrivim el "id" myselect (que per defecte aplica el user agent stylesheet)per adapar-lo al nostre estil*/
+	#mySelect{
+		margin-left: 33%;
+		width: 30%;
+		background-color: rgba(255, 255, 255, 0.24);
+		color: white;
+		
+		margin-bottom: 10%;
+		font-family: 'Hammersmith One', sans-serif;
+		transform: scale(1.7);
+
+	}
+	.Buscador{
+		background-color: rgba(255, 255, 255, 0);
+		width: 30%;
+		margin: auto;
+		margin-bottom: 5%;
+	}
+	img{
+		float: center;
+		border-radius: 100%;
+		z-index: 0;
+		width: 100%;
+		position: relative;	
+		cursor: pointer;
+
+	}	
+	
+	#dropdownbutton{
+		margin-top: 5%;
+	}
+	
+	.item{
+		float: left;
+		width: 25%;
+		margin-bottom: 3%;
+		padding: 1%;
+		padding-top: 4%;
+		font-family: 'Hammersmith One', sans-serif;
+		
+	}
+	#Bigcontainer{
+		background-color: rgba(174, 173, 173, 0.23);
+		border: 0.5;
+		border-radius: 26px;
+		position: absolute;
+		margin-left: 8%;
+		margin-right: 8%;
+		box-shadow: 10px 10px 5px rgba(40, 76, 72, 0.31);
+		width: 85%;	
+		margin-bottom: 4%;
+	}
+	#Bigcontainer2{
+		
+
+	}
+	#Bigcontainer h3{
+		padding-top: 3%;
+		margin:auto;
+		font-size: 35px;
+		color: white;
+		width: 35%;
+		display: block;
+		margin-bottom: 3%;
+	}
+	p{
+		width: 100%;
+		margin:auto;
+		color: white;
+		cursor: pointer;
+
+	}
+	p.nomartista{
+		color: white;
+		font-size: 18px;
+		margin: auto;
+		margin-left: 20%;
+		margin-top: 10%;
+
+	}
+	p.nomalbum{
+		color: white;
+		font-size: 18px;
+		margin: auto;
+		margin-left: 20%;
+	}
+	.itembox{
+		width: 90%;
+		margin: auto;
+		clear: both;
+		
+	}
+	
+	#content{
+		padding-bottom: 100px;
+		position: absolute;
+	}
+	#footer{
+		margin: auto;
+		background-color: black;
+		width: 100%;
+		height: 30px;
+		
+		bottom: 0;
+		left: 0;
+		position: fixed;
+	}
+	#footer p{
+		padding-top: 0.5%;
+		margin: auto;
+		color: white;
+		width: 22%;;
+		font-family: 'Hammersmith One', sans-serif;
+	}
+	#nextR{
+
+		margin-left: 89%;
+		font-size: 800%;
+		float: right;
+		position: fixed;
+		cursor: pointer;
+
+	}
+	#nextL{
+		margin-left: 4.4%;
+		width: 50%;
+		font-size: 800%;
+		float: left;
+		position: fixed;
+		cursor: pointer;
+	}
+	#Logo{
+		padding: 1%;
+		width: 10%;
+		display: inline-block;
+		margin: auto;
+	}
+
+	/*BOTO DE PLAY i BOTO DE FAVORIT DINS DE TRACKS*/
+	.play{
+		cursor: pointer;
+	}
+	.fav{
+		cursor: pointer;
+		color:green;
+		font-size: 145%;
+	}
+
+
+/*Parella de selectors de playlist on volem que vagi la cançó dins de tracks.*/
+	#addButton{
+		background-color: rgba(255, 255, 255, 0.19);
+		border-radius: 14px;
+		border-style: solid;
+		margin-bottom: 1%;
+		font-family: 'Hammersmith One', sans-serif;
+		
+
+	}
+	.Add{
+		background-color: rgba(255, 255, 255, 0.19);
+		border-radius: 14px;
+		border-style: solid;
+		font-family: 'Hammersmith One', sans-serif;
+	}
+	.song{
+		box-shadow: 14px 2px 39px rgba(12, 2, 2, 0.72);
+		margin-bottom: 7%;
+		transform: scale(1.3);
+	}
+	.repr{
+		margin-left: 33%;
+		
+	}
+	/*-----------------------------BOOTSRAP REDESIGN-------------------------------*/
+	/*td son cada una de les cel·les de tracks*/
+	td{
+		font-family: 'Hammersmith One', sans-serif;
+	}
+	/* Boto amb la lupa del buscador i boto amb el simbol + */
+	#btn-group{
+		margin-bottom: 5%;
+	}
+	#btn-group i{
+		color:red;
+		
+	}
+	.btn-default{
+		background-color: rgba(255, 255, 255, 0.19);
+		border-radius: 14px;
+		color: white;
+	}
+	/* Espai de text del buscador*/
+	.form-control{
+		background-color: rgba(255, 255, 255, 0.19);
+		border-radius: 14px;
+		color: white;
+	}
+	.input-group{
+		transform: scale(1.7);
+		margin-bottom: 10%;
+	}
+	.input-group .form-control{
+		
+		
+	}
+	
+	.jumbotron{
+	padding: 1px 15px;
+	margin-bottom: 30px;
+	color: inherit;
+	background-color: #DDD5D5;
+	}
+}
